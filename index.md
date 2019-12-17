@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# Kodi Connect - Alexa
 
-You can use the [editor on GitHub](https://github.com/kodi-connect/kodi-connect.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Implements [Alexa Video Skill](https://developer.amazon.com/docs/video/understand-the-video-skill-api.html)<br/>
+Example [Youtube](https://www.youtube.com/watch?v=BTgooV_YEvg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Steps to set up Kodi Alexa integration
+Please follow the tutorial [here](tutorial.md)
 
-### Markdown
+Please join Discord if you have any questions regarding setup, or in general<br/>
+[*Discord link*](https://discord.gg/ryVcz7S)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Working features
+- Search and Display [Examples](https://developer.amazon.com/docs/video/video-skill-testing-guide.html#search-content)
+  - This will display a list of matched Movies/TVshows
+- Search and Play [Examples](https://developer.amazon.com/docs/video/video-skill-testing-guide.html#play-content)
+- Control playback [Examples](https://developer.amazon.com/docs/video/video-skill-testing-guide.html#control-playback)
+- Seeking [Examples](https://developer.amazon.com/docs/device-apis/alexa-seekcontroller.html#adjustseekposition)
+- [Setting](https://developer.amazon.com/docs/device-apis/alexa-speaker.html#setvolume) and [Adjusting](https://developer.amazon.com/docs/device-apis/alexa-speaker.html#adjustvolume) volume, and [muting, unmuting](https://developer.amazon.com/docs/device-apis/alexa-speaker.html#setmute)
+- Turning On/Off - "Alexa, turn On/Off <device_name>" (Device name is taken from KodiConnect page)
+  - This is only available for devices with CEC capability, like RPi, etc. (it checks for `cec-client` binary)
 
-```markdown
-Syntax highlighted code block
+**Note**: If updating Addon which introduces new features, you need to relink the Kodi device in Alexa app. Just unlink the device, and go through discovery again. This is because new versions of Addon now report supported features, to ensure backward compatibility, and seamless user experience. This should be the first step, if some of the features is not working for you.
 
-# Header 1
-## Header 2
-### Header 3
+## Donation
+If you want to buy me a beer :) 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kodi-connect/kodi-connect.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=X8AL7A9B6XMQ4)
