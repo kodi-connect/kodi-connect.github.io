@@ -38,7 +38,7 @@ Please join Discord if you have any questions regarding setup, or in general<br/
 1. [Set up Lambda and Alexa skill](#tutorial---alexa-skill-and-lambda-function)
     * Deploy Lambda function to your AWS account (manually), and create Alexa skill (through KodiConnect automation)
 
-1. [Link Kodi Device to Alexa Echo devices](tutorial/alexa-skill/readme.md)
+1. [Link Kodi Device to Alexa Echo devices](#tutorial---enable-alexa-skill)
 
 
 ## Tutorial - Kodi Connect
