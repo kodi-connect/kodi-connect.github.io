@@ -1,5 +1,3 @@
-# Kodi Connect - Alexa
-
 Implements [Alexa Video Skill](https://developer.amazon.com/docs/video/understand-the-video-skill-api.html)<br/>
 Example [Youtube](https://www.youtube.com/watch?v=BTgooV_YEvg)
 
