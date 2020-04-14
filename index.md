@@ -142,8 +142,7 @@ But copy the Skill ID, which should look something like this:
 1. Click the "Upload" button, and select the zip file we downloaded earlier (e.g. `kodi-alexa-video-package-1.0.zip`).
 1. Click "Save" at the top right of the page, and wait for it to load.
 
-Leave this window/tab open, as we will need to return back to it.<br/>
-But copy the function ARN that is in the upper right corner, which should look something like this:
+Copy the function ARN that is in the upper right corner, which should look something like this:
 
 `arn:aws:lambda:<region_you_picked>:<long_number>:function:kodi`
 
