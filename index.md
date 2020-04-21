@@ -101,12 +101,12 @@ At the top right of the screen, there is a button next to your username, but bef
 
 Amazon provides a list of [regions and languages](https://developer.amazon.com/docs/smarthome/develop-smart-home-skills-in-multiple-languages.html#deploy). Here is a copy:
 
-Skill language                                           | Endpoint Region | Lambda Function Region
----------------------------------------------------------|-----------------|-----------------------
-English (US), English (CA)                               | North America   | US East (N. Virginia)
-English (UK), French (FR), German, Italian, Spanish (ES) | Europe, India   | EU (Ireland)
-English (IN)                                             | Europe, India   | EU (Ireland)
-Japanese, English (AU)                                   | Far East        | US West (Oregon)
+Skill language                                           | Endpoint Region | Lambda Region Name    | AWS Region
+---------------------------------------------------------|-----------------|-----------------------|--------------
+English (US), English (CA)                               | North America   | US East (N. Virginia) | us-east-1
+English (UK), French (FR), German, Italian, Spanish (ES) | Europe, India   | EU (Ireland)          | eu-west-1
+English (IN)                                             | Europe, India   | EU (Ireland)          | eu-west-1
+Japanese, English (AU)                                   | Far East        | US West (Oregon)      | us-west-2
 
 For example, I am located in Slovakia, but my Amazon Echo devices are set to "English (US)". For this step, I would choose "US East (N. Virginia)".
 
